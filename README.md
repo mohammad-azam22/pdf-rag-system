@@ -1,4 +1,4 @@
-![Screenshot (262)](https://github.com/user-attachments/assets/aa81382d-a7b0-46f3-a9dc-99afbca7aef3)# PDF RAG System
+# PDF RAG System
 
 This is a PDF <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval Augmented Generation (RAG)</a> System, a project designed to enable users to query a PDF document. The system works in two steps: 
 1. Load the PDF document.
