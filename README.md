@@ -1,4 +1,4 @@
-# PDF RAG System
+![Screenshot (262)](https://github.com/user-attachments/assets/aa81382d-a7b0-46f3-a9dc-99afbca7aef3)# PDF RAG System
 
 This is a PDF <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval Augmented Generation (RAG)</a> System, a project designed to enable users to query a PDF document. The system works in two steps: 
 1. Load the PDF document.
@@ -26,6 +26,12 @@ npm install
 ```
 node server.js
 ```
+
+## Screenshots
+![Screenshot (260)](https://github.com/user-attachments/assets/22b3a386-cad1-4b9e-972d-88eb48f9f536)
+![Screenshot (261)](https://github.com/user-attachments/assets/935b0fa9-5e05-4966-acbc-6223e3f9823e)
+![Screenshot (262)](https://github.com/user-attachments/assets/f36581fa-3422-4451-92b1-e927f50023be)
+
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
