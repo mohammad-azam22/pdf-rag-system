@@ -5,6 +5,7 @@ This is a PDF <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generat
 2. Query the PDF document.
    
 Users can upload a PDF file and then ask questions. The questions will be answered using the context taken from the PDF document only.
+The project utilizes the "nomic-embed-text" model to generate embeddings from the document and the "llama 3.2" model for generating responses to user queries.
 
 ## Table of Contents
 
