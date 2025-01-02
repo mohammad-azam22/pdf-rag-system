@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <title>RAG System</title>
+</head>
+
+<body>
+    <main>
+        <div id="hero" class="step">
+            <h1>
+                RAG System
+            </h1>
+            <div class="image">
+                <img src="../images/steps.png" alt="steps" id="steps">
+            </div>
+        </div>
+        <div id="step-1" class="step">
+            <h2>
+                Step 1: Load the PDF document
+            </h2>
+            <div class="content">
+                <label for="file">Select PDF File</label>
+                <input type="file" name="file" id="file" accept=".PDF" />
+                <span id="file-name"></span>
+                <!-- <span><i>*Max. file size: 500 KB</i></span> -->
+                <button id="btn-step-1" onclick=load_doc() disabled>Load PDF</button>
+            </div>
+            <img src="../images/loading.gif" alt="loading" id="loading-1">
+            <span class="message"></span>
+        </div>
+        <div id="step-2" class="step">
+            <h2>
+                Step 2: Query the document
+            </h2>
+            <div class="content">
+                <div class="input">
+                    <input type="text" id="query" name="query" placeholder="Write your query" maxlength="150" />
+                    <button id="btn-step-2" onclick=get_response() disabled>Submit</button>
+                </div>
+                <span class="message"></span>
+                <img src="../images/loading.gif" alt="loading" id="loading-2">
+                <div id="response"></div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+
+</html>
