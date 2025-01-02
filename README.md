@@ -1,6 +1,6 @@
 # PDF RAG System
 
-This repository contains the code for the PDF RAG System, a project designed to enable users to query a PDF document. The system works in two steps: 
+This is a PDF <a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank">Retrieval Augmented Generation (RAG)</a> System, a project designed to enable users to query a PDF document. The system works in two steps: 
 1. Load the PDF document.
 2. Query the PDF document.
    
