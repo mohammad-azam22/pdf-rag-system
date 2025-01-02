@@ -1,6 +1,9 @@
 # PDF RAG System
 
-This repository contains the code for the PDF RAG System, a project designed to [briefly describe the purpose of the project].
+This repository contains the code for the PDF RAG System, a project designed to enable users to query a PDF document. The system works in two steps: 
+1. Load the PDF document.
+2. Query the PDF document.
+Users can upload a PDF file and then ask questions. The questions will be answered using the context taken from the PDF document only.
 
 ## Table of Contents
 
